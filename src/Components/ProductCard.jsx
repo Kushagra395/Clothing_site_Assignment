@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../context/CartContext.jsx";
 import { motion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
 

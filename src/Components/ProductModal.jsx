@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Plus, Minus } from "lucide-react";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../context/CartContext.jsx";
 
 const ProductModal = ({ product, isOpen, onClose }) => {
   const {
