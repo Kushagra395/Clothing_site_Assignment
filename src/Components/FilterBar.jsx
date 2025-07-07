@@ -22,6 +22,6 @@ const FilterBar = ({ value, onChange }) => {
       </select>
     </div>
   );
-};
+}; 
 
 export default FilterBar;

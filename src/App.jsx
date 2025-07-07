@@ -7,7 +7,7 @@ const App = () => {
   return (
     <CartProvider>
       <ProductListingPage />
-    </CartProvider>
+    </CartProvider> 
   );
 };
 

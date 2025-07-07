@@ -11,7 +11,7 @@ const SearchBar = ({ value, onChange }) => {
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder="Search products..."
-          className="bg-transparent w-full text-white placeholder-gray-400 outline-none"
+           className="bg-transparent w-full text-white placeholder-gray-400 outline-none"
         />
       </div>
     </div>

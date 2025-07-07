@@ -78,7 +78,7 @@ const ProductListingPage = () => {
       transition={{ duration: 0.6 }}
       className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white px-6 py-8 relative"
     >
-      {/* Cart Badge */}
+      {/* Cart Badge  */}
       <div
         className="absolute top-6 right-6 bg-sky-600 text-white px-3 py-1 rounded-full text-sm font-semibold shadow flex items-center gap-2 cursor-pointer hover:brightness-110 transition"
         onClick={() => setCartOpen(true)}
@@ -92,7 +92,7 @@ const ProductListingPage = () => {
   CLOSET
 </h1>
 
-      {/* Controls */}
+      {/* Cont rols */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">
         <div className="w-full md:w-1/2">
           <SearchBar value={searchQuery} onChange={setSearchQuery} />
@@ -103,7 +103,7 @@ const ProductListingPage = () => {
         </div>
       </div>
 
-      {/* Product Grid */}
+      {/* Product  Grid */}
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filtered.length ? (
           filtered.map((product) => (

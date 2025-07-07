@@ -27,10 +27,10 @@ const ProductCard = ({ product, onClick  }) => {
       </h2>
       <p className="text-xl font-bold text-white mb-4">${product.price}</p>
 
-      {/* Cart Control */}
+      
       {cartItem ? (
         <div className="flex items-center justify-between bg-gray-900/70 px-4 py-2 rounded-xl shadow-sm">
-          <button
+           <button
             onClick={() => decreaseQty(product.id)}
             className="p-1 bg-gray-700 rounded hover:bg-gray-600 transition"
           >
