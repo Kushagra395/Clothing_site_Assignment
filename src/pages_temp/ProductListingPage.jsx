@@ -3,12 +3,12 @@ import axios from "axios";
 import { CartContext } from "../context/CartContext.jsx";
 import { ShoppingBag, ShoppingBagIcon } from "lucide-react";
 
-import ProductCard from "../components/ProductCard";
-import SearchBar from "../components/SearchBar";
-import FilterBar from "../components/FilterBar";
-import SortBar from "../components/SortBar";
-import CartSidebar from "../components/CartSidebar";
-import ProductModal from "../components/ProductModal";
+import ProductCard from "../components/ProductCard.jsx";
+import SearchBar from "../components/SearchBar.jsx";
+import FilterBar from "../components/FilterBar.jsx";
+import SortBar from "../components/SortBar.jsx";
+import CartSidebar from "../components/CartSidebar.jsx";
+import ProductModal from "../components/ProductModal.jsx";
 
 import { ShoppingCart } from "lucide-react";
 import { motion } from "framer-motion";

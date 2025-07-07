@@ -1,5 +1,5 @@
 import React from "react";
-import ProductListingPage from "./Pages/ProductListingPage";
+import ProductListingPage from "./pages/ProductListingPage.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
  
 
